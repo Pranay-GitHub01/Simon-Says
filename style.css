@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+body {
+  height: 100%;
+  background-color: rgb(157, 255, 255);
+}
+.btn {
+  height: 200px;
+  width: 200px;
+  background-color: red;
+  border: 2px solid black;
+  border-radius: 13%;
+  margin: 1.2rem;
+}
+
+.btn_container {
+  display: flex;
+  justify-content: center;
+}
+.btn1 {
+  background-color: rgba(221, 34, 34, 0.881);
+}
+.btn2 {
+  background-color: rgb(127, 157, 255);
+}
+.btn3 {
+  background-color: rgb(110, 9, 192);
+}
+.btn4 {
+  background-color: rgba(247, 255, 3, 0.914);
+}
+
+/*                       adding  a flash class to buttons              */
+.flash {
+  background-color: white;
+}
+
+.userFlash {
+  background-color: rgba(66, 205, 119, 0.848);
+}
+
+.rules {
+  font-size: x-large;
+  font-weight: 400;
+  margin-top: 20px;
+}
